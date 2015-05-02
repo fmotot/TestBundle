@@ -1,0 +1,20 @@
+{
+	"name" : "fmotot/test-bundle",
+	"type" : "symfony-bundle",
+	"description" : "Symfony TestBundle",
+	"keywords" : [],
+	"license" : "GPL-3.0+",
+	"version" : "0.1",
+	"authors" : [{
+			"name" :  "Frédérick MOTOT",
+			"email" : "fmotot@gmail.com"
+		}
+	],
+	"require" : {
+	},
+	"autoload" : {
+			"psr-0" : {"FRM\\Bundle\\Bundle" :  ""}
+		},
+	"target-dir" : "FRM/Bundle/TestBundle",
+	"minimum-stability" : "dev"
+}
